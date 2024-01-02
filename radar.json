@@ -1,10 +1,10 @@
 [
   {
-    "name": "Composer",
-    "ring": "adopt",
+    "name": "Scheduled Tasks in ECS",
+    "ring": "trial",
     "quadrant": "tools",
     "isNew": "TRUE",
-    "description": "Although the idea of dependency management ..."
+    "description": "For anything like a cronjob that needs access to our backend, we use the setup already in place for our other scheduled jobs"
   },
   {
     "name": "Canary builds",
