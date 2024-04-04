@@ -53,7 +53,14 @@
     "ring": "adopt",
     "quadrant": "techniques",
     "isNew": "FALSE",
-    "description": "We should aggressivelyt migrrate away from legacy mapping functions to hooks for redux interaction in components."
+    "description": "We should aggressively migrate away from legacy mapping functions to hooks for redux interaction in components."
+  },
+  {
+    "name": "React Component Redux State from Mapping Functions",
+    "ring": "hold",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "Whilst there might be specific cases where the performance benefits of mapping functions are required, in general we should be using hooks to interact with redux state in components and actively migrating away from mapping functions in existing components."
   },
   {
     "name": "Twilio Serverless Functions",
